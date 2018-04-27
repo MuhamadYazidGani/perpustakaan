@@ -1,0 +1,246 @@
+html{
+	background-image: url(assets/gambar/back.png);
+	background-color: #E0E0EE;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	}
+.bodi{
+	margin-left: 10%; 
+	width: 80%;
+	background-color: #3DABD9;
+	border-radius: 5px;
+	
+}
+.container{
+  display: grid;
+  grid-template-areas: 
+    "header header header "
+    "side1 conten conten"
+    "footer footer footer";
+  grid-template-rows: 7% auto 7% ;  
+  grid-template-columns:  20% auto 20%;
+  grid-gap: 10px;	
+  }  
+
+#pageHeader {
+  margin-top: 10px;
+  grid-area: header;
+  background: #F2EDED;
+  border-radius: 8px;
+  text-align: center;
+
+  }
+#pageFooter {
+  grid-area: footer;
+  background: #F2EDED;
+  margin-bottom: 7px;
+  border-radius: 5px;
+
+  }
+
+#float li {
+	background: linear-gradient(#B0CEDA, #3DABD9);
+    float: left;
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-radius: 0%;
+}
+
+#float li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-variant: Calibri;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 7.5px;
+    border-radius: 15%;
+    background: linear-gradient(#097FB1, #3DABD9);
+}
+s
+#float li a:hover {
+  background: #43A047;
+  color: #d0d2d5;
+}
+
+#float{
+	margin-left: 15pc;
+	padding-top: 0px;
+}
+
+
+@media screen and (max-width: 680px) {
+  ul.float li.a(:first-child) {display: none;}
+  ul.float li
+}
+
+@media screen and (max-width: 680px) {
+  ul.float.responsive {
+    position: relative;
+  }
+  ul.float.
+}
+
+
+
+
+
+
+
+#logo{
+	float: left;
+	padding-left: 20px;
+	padding-top: 0px;
+	width: 130px;
+	height: 40px;
+}
+
+/*css login*/
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #73D3FB;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+}
+
+.form p{
+	 font-family: "Roboto", sans-serif;
+	 font-size: 18px;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 11px;
+  border-radius: 5px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #3DABD9;
+}
+
+.cari button:hover,.cari button:active,.cari button:focus {
+  background: #1384B3;
+}
+.cari{
+  float: left;
+  position: relative;
+  background: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+}
+.cari input{
+  margin-top: 5px;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  border: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+.cari button{
+  margin-top: 5px;
+  float: right;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: linear-gradient(#91DAB9, #3DABD9);
+  border: 0;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.opt{
+  float: left;
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  border: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/*conten main*/
+#banner{
+width: 100%;
+border-radius: 5px;
+}
+#banner1{
+margin-left: 8px;
+margin-top: 15px;
+width: 120px;
+height: 120px; 
+padding: 0px 0px 5px 0px; 
+border-radius: 15px;
+}
+
+#banner1:hover{
+	background: black;
+}
+
+
+#banner1:active{
+	background: red;
+}
+
+#chat{
+	font-family: "Roboto", sans-serif;
+	background-color: #D4CDCD
+	border-radius:15px;
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	padding: 5px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+}
+
+p{
+	text-align:  justify;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#mdsos a img{
+	height: 50px;
+	width: 63px;
+}
+
+
